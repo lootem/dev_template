@@ -1,12 +1,13 @@
 {
     "name": "Lootem Dev Container",
-    "dockerComposeFile": "docker-compose.yml",
-    "service": "app",
-    "workspaceFolder": "/src/app",
-    "shutdownAction": "stopCompose",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {},
     "customizations": {
         "vscode": {
             "extensions": [
+                "EditorConfig.EditorConfig",
                 "ms-python.python",
                 "ms-python.black-formatter",
                 "ms-python.isort",
