@@ -1,0 +1,20 @@
+{
+    "name": "lootem dev container",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/app",
+    "shutdownAction": "stopCompose",
+    "features": {},
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "EditorConfig.EditorConfig",
+                "ms-vscode-remote.vscode-remote-extensionpack",
+                "ms-vscode.remote-explorer",
+                "ms-azuretools.vscode-containers",
+                "ms-python.python",
+                "ms-python.black-formatter"
+            ]
+        }
+    }
+}
